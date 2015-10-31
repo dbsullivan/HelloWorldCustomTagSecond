@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="customSecondTagLib">
+    <output-path>$PROJECT_DIR$/out/artifacts/customSecondTagLib</output-path>
+    <root id="archive" name="customSecondTagLib.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/custom.tld" />
+      </element>
+      <element id="module-output" name="HelloWorldCustomTagSecond" />
+    </root>
+  </artifact>
+</component>
